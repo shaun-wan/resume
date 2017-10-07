@@ -1,0 +1,64 @@
+{
+  "name": "Shaun Wan Cheng Ye",
+  "address": "21B, Jalan Awan Cina, Taman Yarl, 58200 Kuala Lumpur",
+  "mobile": "+6017-2271888",
+  "email": "shaun.wan.cy@gmail.com",
+  "profile": "As a developer, I posses the quality where I thrive to find solutions when solving any problems. I am an organized person and always willing to learn as technology is constantly evolving. I am also a team player and enjoy being around people.",
+  "profile-image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA1JAAAAJDZmZmNiYmZlLTU2YWYtNDBjMi04ZTc0LTljYmRkMWI4ODcwMQ.jpg",
+  "work_experience": [
+    {
+      "title": "Full Stack Rails Developer",
+      "company": "Freelance",
+      "start_date": "April 2017",
+      "end_date": "September 2017",
+      "responsibilities" : [
+        "Develop responsive websites and web applications"
+      ]
+    },
+    {
+      "title": "Java Developer",
+      "company": "Silverlake Sprints",
+      "start_date": "September 2014",
+      "end_date": "March 2017",
+      "responsibilities" : [
+        "Involved in frontend and backend development on web applications",
+        "Involved in intregrating social media API (e.g twitter and pinterest) into web applications",
+        "Participated with the team in IBM Watson Challenge to develop an web application and got 3rd place"
+      ]
+    },
+    {
+      "title": "Digital Marketing Internship",
+      "company": "Taylor's University",
+      "start_date": "December 2013",
+      "end_date": "February 2014",
+      "responsibilities" : [
+        "Involved in web management, stakeholder management and excuting online campaigns"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "certification": "Bachelor of Computer Science",
+      "institution": "Monash University",
+      "start_year": "2011",
+      "end_year": "2014"
+    },
+    {
+      "certification": "Australian Matriculation",
+      "institution": "Sunway University College",
+      "start_year": "2010",
+      "end_year": "2011"
+    }
+  ],
+  "techincal_skills":
+  {
+      "strong": "Java, Ruby on Rails, HTML, JavaScript/Jquery, Bootstrap, CSS/SASS, and MySQL",
+      "basic": "PHP, AngularJS, and web hosting"
+  },
+  "communication_skills":
+  {
+    "fluent" : "English and Bahasa Melayu",
+    "basic": "Chinese"
+  },
+  "hobbies": "I am someone who enjoys sports such as football. During my free time, I like to watch movies and tv series. I also enjoy travelling the world to experience different cultures."
+}
