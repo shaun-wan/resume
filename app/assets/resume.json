@@ -3,9 +3,18 @@
   "address": "21B, Jalan Awan Cina, Taman Yarl, 58200 Kuala Lumpur",
   "mobile": "+6017-2271888",
   "email": "shaun.wan.cy@gmail.com",
-  "profile": "As a developer, I posses the quality where I thrive to find solutions when solving any problems. I am an organized person and always willing to learn as technology is constantly evolving. I am also a team player and enjoy being around people.",
+  "profile": "As a developer, I posses the quality where I thrive to find solutions when solving any problems. I am an organized person and always willing to learn as technology is constantly evolving. I am also a team player and enjoy being around people. I am always open to learning as I believe that's very important for personal and career growth.",
   "profile-image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA1JAAAAJDZmZmNiYmZlLTU2YWYtNDBjMi04ZTc0LTljYmRkMWI4ODcwMQ.jpg",
   "work_experience": [
+    {
+      "title": "Full Stack Developer",
+      "company": "Suria Labs",
+      "start_date": "November 2017",
+      "end_date": "Present",
+      "responsibilities" : [
+        "Involed in Ruby on Rails development on web applications for clients"
+      ]
+    },
     {
       "title": "Full Stack Rails Developer",
       "company": "Freelance",
@@ -52,7 +61,7 @@
   ],
   "techincal_skills":
   {
-      "strong": "Java, Ruby on Rails, HTML, JavaScript/Jquery, Bootstrap, CSS/SASS, and MySQL",
+      "strong": " Ruby on Rails, Java, HTML, JavaScript/Jquery, Bootstrap, CSS/SASS, and MySQL",
       "basic": "PHP, AngularJS, and web hosting"
   },
   "communication_skills":
