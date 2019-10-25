@@ -1,7 +1,6 @@
 <div id="resume">
   <div class="container">
     <div class="row">
-      <!-- left container section -->
       <div class="profile-section-sticky">
         <div class="col-xs-12 col-md-4">
           <div class="profile-section">
@@ -26,67 +25,61 @@
         </div>
       </div>
 
-        <!-- right container section -->
-        <div class="col-xs-12 col-md-8">
-          <div class="content-section">
-
-            <div class="employment-history section-block">
-              <div class="heading">Employment History</div>
-              <% @resume['work_experience'].each do |work|  %>
-                <div class="employment">
-                  <div class="job-heading">
-                    <span class="job-title"><%= work['title'] %></span>
-                    | <span class="date"><%= work['start_date'] %> - <%= work['end_date'] %> </span>
-                  </div>
-                  <div class="company"><%= work['company'] %></div>
-                  <ul class="responsibilities">
-                    <% work['responsibilities'].each do |responsibility|  %>
-                      <li><%= responsibility %> </li>
-                    <% end %>
-                  </ul>
+      <div class="col-xs-12 col-md-8">
+        <div class="content-section">
+          <div class="employment-history section-block">
+            <div class="heading">Employment History</div>
+            <% @resume['work_experience'].each do |work|  %>
+              <div class="employment">
+                <div class="job-heading">
+                  <span class="job-title"><%= work['title'] %></span>
+                  | <span class="date"><%= work['start_date'] %> - <%= work['end_date'] %> </span>
                 </div>
-              <% end %>
-            </div>
-
-            <div class="education section-block">
-              <div class="heading">Education</div>
-              <% @resume['education'].each do |education|  %>
-                <div class="education-level">
-                  <div class="education-heading">
-                    <span class="certification"><%= education['certification'] %></span>
-                    | <span class="date"><%= education['start_year'] %> - <%= education['end_year'] %> </span>
-                  </div>
-                  <div class="institution"><%= education['institution'] %></div>
-                </div>
-              <% end %>
-            </div>
-
-            <div class="technical-skills section-block">
-              <div class="heading">Technical Skills</div>
-              <ul class="skills">
-                <li>Strong skills in <%= @resume['techincal_skills']['strong'] %> </li>
-                <li>Basic skills in <%= @resume['techincal_skills']['basic'] %> </li>
-              </ul>
-            </div>
-
-            <div class="communication-skills section-block">
-                <div class="heading">Communication Skills</div>
-                <ul class="skills">
-                  <li>Fluent in <%= @resume['communication_skills']['fluent'] %> </li>
-                  <li>Basic in <%= @resume['communication_skills']['basic'] %> </li>
+                <div class="company"><%= work['company'] %></div>
+                <ul class="responsibilities">
+                  <% work['responsibilities'].each do |responsibility|  %>
+                    <li><%= responsibility %> </li>
+                  <% end %>
                 </ul>
-            </div>
+              </div>
+            <% end %>
+          </div>
 
-            <div class="personal-interest section-block">
-              <div class="heading">Personal Interest</div>
-              <div class="interest-description"><%= @resume['hobbies'] %></div>
-            </div>
+          <div class="education section-block">
+            <div class="heading">Education</div>
+            <% @resume['education'].each do |education|  %>
+              <div class="education-level">
+                <div class="education-heading">
+                  <span class="certification"><%= education['certification'] %></span>
+                  | <span class="date"><%= education['start_year'] %> - <%= education['end_year'] %> </span>
+                </div>
+                <div class="institution"><%= education['institution'] %></div>
+              </div>
+            <% end %>
+          </div>
 
+          <div class="technical-skills section-block">
+            <div class="heading">Technical Skills</div>
+            <ul class="skills">
+              <li>Strong skills in <%= @resume['techincal_skills']['strong'] %> </li>
+              <li>Basic skills in <%= @resume['techincal_skills']['basic'] %> </li>
+            </ul>
+          </div>
+
+          <div class="communication-skills section-block">
+              <div class="heading">Communication Skills</div>
+              <ul class="skills">
+                <li>Fluent in <%= @resume['communication_skills']['fluent'] %> </li>
+                <li>Basic in <%= @resume['communication_skills']['basic'] %> </li>
+              </ul>
+          </div>
+
+          <div class="personal-interest section-block">
+            <div class="heading">Personal Interest</div>
+            <div class="interest-description"><%= @resume['hobbies'] %></div>
+          </div>
         </div>
       </div>
     </div>
-
   </div>
-
-
 </div>
